@@ -19,7 +19,7 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ```{r cars}
 #summary(cars)
-x <- rnorm(1000)
+x <- rnorm(1000) + 10
 head(x)
 ```
 

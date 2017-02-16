@@ -13,12 +13,12 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ```r
 #summary(cars)
-x <- rnorm(1000)
+x <- rnorm(1000) + 10
 head(x)
 ```
 
 ```
-## [1] -0.93216613  0.02857919 -2.07320137  1.10493140 -0.45107115  1.67368239
+## [1] 10.464502  8.802086  8.300839 10.875741  9.412881 11.087176
 ```
 
 ## Including Plots
